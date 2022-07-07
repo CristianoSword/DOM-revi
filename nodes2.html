@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Study2 About Nodes</title>
+
+    <style>
+      * {
+        border: 2px solid #dedede;
+        padding: 15px;
+        margin: 15px;
+      }
+      html {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        max-width: 600px;
+        font-family: roboto;
+        color: #333;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Cat World</h1>
+    <p>
+      The world's leading source on <strong>cat</strong> related information.
+    </p>
+    <h2>Types of Cat</h2>
+    <ul>
+        <li>Hammerhead</li>
+        <li>Tiger</li>
+        <li>Great White</li>
+    </ul>
+  </body>
+
+  <script>
+   
+    const h1 = document.getElementsByTagName('h1')[0]
+    const p = document.getElementsByTagName('p')[0]
+    const ul = document.getElementsByTagName('ul')[0]
+
+    const tiger = ul.children[1];
+    
+  </script>
+</html>
+
+<!--
+for (let element of ul.children) {
+  element.style.background = 'yellow';
+}
+
+tiger.nextElementSibling.style.background = 'coral';
+tiger.previousElementSibling.style.background = 'aquamarine';
+
+-->
