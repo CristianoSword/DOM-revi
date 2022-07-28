@@ -1,2 +1,2 @@
 # DOM-revi
-Revision DOM and Vanilla Javascript1
+Revision DOM and Vanilla Javascript
